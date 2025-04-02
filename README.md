@@ -30,7 +30,6 @@ This repository contains a MySQL database script for a hotel management system. 
    ```sql
    SHOW DATABASES;
    ```
-
 ## Database Schema
 The database consists of multiple tables, including:
 
@@ -55,7 +54,6 @@ Once the database is set up, you can interact with it using SQL queries. Example
   ```sql
   INSERT INTO customer (name, contact, address) VALUES ('John Doe', '123-456-7890', '123 Main St');
   ```
-
 ## Contributing
 If you would like to contribute, please fork the repository and submit a pull request with your changes.
 
@@ -64,5 +62,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Contact
 For any issues or suggestions, please open an issue in the repository.
-
-
