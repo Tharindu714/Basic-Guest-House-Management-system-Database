@@ -23,7 +23,7 @@ This repository contains a MySQL database script for a hotel management system. 
    ```
 2. Open MySQL Workbench (or any MySQL client).
 3. Execute the script `Hotel_system_db_example.sql`:
-   ```sql
+   ```sh
    SOURCE path/to/Hotel_system_db_example.sql;
    ```
 4. Verify that the `hotel_db` database has been created successfully:
