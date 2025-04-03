@@ -1,0 +1,32 @@
+type Room {
+    id: ID!
+    type: String!
+    price: Float!
+    status: String!
+}
+
+type Guest {
+    id: ID!
+    name: String!
+    email: String!
+    phone: String!
+}
+
+type Booking {
+    id: ID!
+    guest: Guest!
+    room: Room!
+    check_in: String!
+    check_out: String!
+}
+
+type Query {
+    rooms: [Room]
+    guests: [Guest]
+    bookings: [Booking]
+}
+
+type Mutation {
+    addGuest(name: String!, email: String!, phone: String!): Guest
+    addBooking(guest_id: ID!, room_id: ID!, check_in: String!, check_out: String!): Booking
+}
